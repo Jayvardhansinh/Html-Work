@@ -1,0 +1,17 @@
+div{
+    height: 30px;
+    width: 100px;
+    background-color: cyan;
+    animation-name: example;
+    animation-duration: 6s;
+    position: relative;
+}
+    .a{animation-timing-function: linear;}
+    .b{animation-timing-function: ease;}
+    .c{animation-timing-function: ease-in;}
+    .d{animation-timing-function: ease-out;}
+    .e{animation-timing-function: ease-in-out;}
+@keyframes example{
+    from{left: 0px;}
+    to{left: 1000px;}
+}

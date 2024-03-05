@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+.logo{
+    float: left;
+    margin-right: 300px;
+}
+a{
+   float: left;
+   text-decoration: none;
+   color: black;
+   padding: 10px 8px;
+   width: 80px;
+}
+input{
+    float: left;
+    margin-left: 425px;
+}
